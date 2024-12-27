@@ -1,0 +1,20 @@
+@use "./fonts.scss";
+@use "../components/Datepicker/Datepicker.module.scss";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/react-datepicker/2.8.0/react-datepicker.min.css");
+
+:root {
+  --transition-property: all;
+  --transition-duration: 0.3s;
+  --transition-function: ease;
+}
+
+* {
+  transition: var(--transition-property) var(--transition-duration)
+    var(--transition-function);
+}
+
+body {
+  color: #10203b;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
